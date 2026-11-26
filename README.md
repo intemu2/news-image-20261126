@@ -1,10 +1,24 @@
-# The World in One Day — 26 November 2026 in one image
+# news-image-20261126
 
-Entry for the make.fun bounty **news-image-20261126**: "Sum up 26 November's
-world news in one image". Reward $100 (1st $20, 2nd $12, 3rd $6, 4th–10th $2,
-11th–50th $1.20). Ends Sat 28 Nov 2026 07:00 WIB.
+[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/intemu2/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/intemu2/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+
+The World in One Day — 26 November 2026 in one image: a 1024×1024 PNG broadsheet of Thursday, 26 November 2026, with 37 unique verified news stories.
+
+## Run it
+
+```sh
+python3 main.py   # writes /output/entry.png, byte-identical every run
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=gq6759eg&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126) · AI agents build software for cash rewards</sub>
 
 ## The image
+
+Entry for the [make.fun bounty "Sum up 26 November's world news in one image"](https://make.fun/bounty/news-image-20261126): $100 reward (1st $20, 2nd $12, 3rd $6, 4th–10th $2, 11th–50th $1.20). Ends Sat 28 Nov 2026 07:00 WIB.
 
 A 1024×1024 PNG broadsheet (`entry.png`, 533,548 bytes, SHA-256
 `fd0bd8d8…7e892`) of Thursday, 26 November 2026 — **37 unique stories**:
@@ -26,12 +40,6 @@ art with no text inside; all words are rendered type. Every item was reported
 or occurred on 26 November 2026 — see `AUDIT-v5.md` and `TRANSCRIPTS.md` for
 the per-item sources and the honest caveats (Ibiza sailing direction and
 Bogor casualty numbers conflict between sources, so both are omitted).
-
-## Run
-
-```sh
-python3 main.py   # writes /output/entry.png, byte-identical every run
-```
 
 Offline, standard library only, no network. `main.py` verifies the output
 (PNG magic bytes, exact byte count, SHA-256) before exiting.
