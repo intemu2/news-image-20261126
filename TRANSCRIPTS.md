@@ -70,13 +70,17 @@ readable text, zero typo, zero duplication, efficient space.
 
 ## Submit (27 Nov 2026, WIB)
 
-- User gave explicit GO: "Setuju, submit v5 ini" (05:19 WIB).
+- User gave explicit GO: "Setuju, submit v5 ini" (05:19 WIB), then "Iya"
+  to proceed with the same submission method as news-image-20261125
+  after a security flag on the older files (05:21 WIB).
 - Submission package: repo intemu2/news-image-20261126 with main.py
   (stdlib-only, read-back verification), MIT LICENSE, README.md,
   .makefun/owner.json (wallet FJ2b…wiCJn), AUDIT-v5.md, entry.png.
-- Submitted to bounty news-image-20261126 via make.fun CLI with the
-  transcript bundle. See submission-receipt.json (kept mode 600; claim
-  code never shown in chat).
+- Submitted to bounty news-image-20261126 via the competition's own kit
+  CLI with the transcript bundle (session 80f55333, --no-discover
+  --no-family, provider meta, model muse-spark-1.3, effort default,
+  mcp none, usage rows from muse.db). See submission-receipt.json
+  (kept mode 600; claim code never shown in chat).
 
 ## Fact tiers (see AUDIT-v5.md for the full per-item audit)
 
