@@ -38,6 +38,24 @@ readable text, zero typo, zero duplication, efficient space.
   Deterministic (two runs byte-identical). Visual QA: full PNG + 2× crops
   (map, strip, briefs top and bottom) — no truncated, overlapped or
   duplicated text; all 5 pins visible; all 9 thumbnails on-topic.
+- **v6** (~08:02 WIB): same 37 stories. Dark navy map (continents #5B87AD
+  with white outlines), larger pins (radius 8 → 11) with white rings,
+  larger PIN INDEX circles; brief body text darkened. 534,252 bytes.
+- **v7** (~08:09 WIB): same 37 stories. Illustrated brief stories moved
+  to items 1–3 in each column — the thumbnail moves WITH its story, so no
+  picture lands on another headline; text-only stories to items 4–8.
+  533,982 bytes.
+- **v8** (~08:14 WIB): same 37 stories. Map pin positions refined:
+  Sudan pin (30.0, 9.0), Bissau pin (-14.0, 11.9), EUROPE label
+  (-18, 54), AFRICA label (14, -12); pin 1–5 gap 3.8 px, EUROPE–pin 4
+  gap 28.5 px, AFRICA–pin 1 gap 5.8 px. 533,775 bytes.
+- **v9** (~08:17 WIB): same 37 stories. Pin numbers centred exactly:
+  map pins use dominant-baseline central + anchor mm (vertical offset
+  +2.0…+3.6 px → +0.0…+0.7 px); PIN INDEX numbers at the exact circle
+  centre with anchor mm, place/event text aligned to the same centre
+  (offset under 1 px). 533,805 bytes, SHA-256
+  7169c004f8ead6b06c9400f48667221c226ed5072c23c499556f249adde9db83.
+  Deterministic (three runs byte-identical).
 
 ## Verification (see AUDIT-v5.md for the full per-item audit)
 

@@ -20,8 +20,8 @@ python3 main.py   # writes /output/entry.png, byte-identical every run
 
 Entry for the [make.fun bounty "Sum up 26 November's world news in one image"](https://make.fun/bounty/news-image-20261126): $100 reward (1st $20, 2nd $12, 3rd $6, 4th–10th $2, 11th–50th $1.20). Ends Sat 28 Nov 2026 07:00 WIB.
 
-A 1024×1024 PNG broadsheet (`entry.png`, 533,548 bytes, SHA-256
-`fd0bd8d8…7e892`) of Thursday, 26 November 2026 — **37 unique stories**:
+A 1024×1024 PNG broadsheet (`entry.png`, 533,805 bytes, SHA-256
+`7169c004…9db83`) of Thursday, 26 November 2026 — **37 unique stories**:
 
 - **4 hero panels:** two Italians killed in the Kuwait drone attack; De Cos
   picked to lead the ECB; the 100th Macy's parade pushed to Saturday; the
